@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="Index.html">
+                <img src="Images\logo.jpeg" alt="Company Logo">
+            </a>        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </a>
+        <div class="menu">
+            <ul>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="Adopt.html">Adopt</a></li>
+                <li><a href="Volunteer.html">Volunteer</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+                <li><a href="Donate.html">Donations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="Images\kidwithdog.jpg" style="width: 100%;" alt="image1">
+                <div class="text">
+                    <h2>Building families, one paw print at a time</h2>
+                    <a class="slide-button" href="AboutUs.html">About Us</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Images\puppy-and-cat-bonding.jpeg"  style="width: 100%;" alt="Image 2" >
+                <div class="text">
+                    <h2>Be the light in a scared animal's eyes. Choose adoption</h2>
+                    <a class="slide-button" href="Adopt.html">Adopt</a>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Images\volunteering-chicago-girls-outside-istock.jpg" style="width: 100%;" alt="Image 3">
+                <div class="text">
+                    <h2>Be the light in a scared animal's eyes. Choose adoption</h2>
+                    <a class="slide-button" href="Volunteer.html">Volunteer</a>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+        <br>
+
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+</body>
+</html>
